@@ -1,4 +1,4 @@
-**User Guide: Laboratory Calculation Dashboard**
+**User Guide: LabCalcHub**
 
 # **Introduction**
 
