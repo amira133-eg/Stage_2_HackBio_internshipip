@@ -1,5 +1,5 @@
 # Stage_2_HackBio_internship
- # LabCalcHub
+ # LabCalcHub (Web Application in R Shiny)
 
 # **Authors** 
 (@slack):Amira Mahmoud Mohamed (amira\\mahmoud\\4463)
