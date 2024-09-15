@@ -5,7 +5,7 @@
  **Mathematical Formula:**  
 The formula to determine the volume of stock solution to transfer: 𝑉𝑡𝑟𝑎𝑛𝑠𝑓𝑒𝑟=𝐶0×𝑉𝑥𝐶𝑥×𝐷𝐹  
  **Logic in R Shiny:**  
-# **LOGICS 
+# LOGICS 
 Co <- input$co
 
 #Initial concentration of the stock solution
@@ -99,7 +99,7 @@ stringsAsFactors = FALSE
 The formula to calculate molarity (M) of a solution: 𝑀=𝑚𝑎𝑠𝑠𝐶𝑚𝑜𝑙𝑎𝑟 𝑚𝑎𝑠𝑠×𝑣𝑜𝑙𝑢𝑚𝑒𝑠  
  **Logic in R Shiny:**  
 
-# **LOGICS
+# LOGICS
 observeEvent(input$calculate_molarity, {
 
 req(input$mass,
@@ -132,7 +132,7 @@ stringsAsFactors = FALSE
 The formula to calculate the density (ρ) of a solution: 𝜌=𝑚𝑎𝑠𝑠(𝑠𝑜𝑙𝑢𝑡𝑖𝑜𝑛)𝑣𝑜𝑙𝑢𝑚𝑒(𝑠𝑜𝑙𝑢𝑡𝑖𝑜𝑛)  
 **Logic in R Shiny:**
 
-# **LOGICS
+# LOGICS
 
 observeEvent(input$calculate_density, {
 
