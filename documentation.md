@@ -1,11 +1,11 @@
-**Documentation of the underlying mathematics formulas and logic used to implement LabCalcHub in R Shiny**
+# **Documentation of the underlying mathematics formulas and logic used to implement LabCalcHub in R Shiny**
 
- **Serial Dilution Calculator**         
+# **Serial Dilution Calculator**         
  Uses a loop to calculate the volume of stock solution, diluent and updating the concentration at each step.  
  **Mathematical Formula:**  
 The formula to determine the volume of stock solution to transfer: 𝑉𝑡𝑟𝑎𝑛𝑠𝑓𝑒𝑟=𝐶0×𝑉𝑥𝐶𝑥×𝐷𝐹  
  **Logic in R Shiny:**  
-![][image1]
+# **LOGICS 
 Co <- input$co
 
 #Initial concentration of the stock solution
@@ -49,14 +49,14 @@ stringsAsFactors = FALSE
 
 
 
-**. Stock Solution Dilution Calculator**  
+# **. Stock Solution Dilution Calculator**  
  Calculates the volumes of stock solution and solvent required to achieve the desired final concentration.  
  **Mathematical Formulas:**  
 The formula to determine the Volume of Stock Solution Needed: 𝑉𝑠=𝐶𝑥×𝑉𝑥𝐶𝑠  
 The formula to determine the Volume of Solvent Needed:  
 Vsolvent=Vx−Vs  
  **Logic in R Shiny:**  
-![][image2]
+# LOGICS
 # Stock Solution Dilution Calculation
 
 observeEvent(input$calculate_stock,
@@ -93,12 +93,13 @@ stringsAsFactors = FALSE
 
 
 
-**. Molarity Calculator**  
+# **. Molarity Calculator**  
  Calculates the concentration of a solution based on the mass of solute and the solution’s volume.  
  **Mathematical Formula:**  
 The formula to calculate molarity (M) of a solution: 𝑀=𝑚𝑎𝑠𝑠𝐶𝑚𝑜𝑙𝑎𝑟 𝑚𝑎𝑠𝑠×𝑣𝑜𝑙𝑢𝑚𝑒𝑠  
  **Logic in R Shiny:**  
-![][image3] 
+
+# **LOGICS
 observeEvent(input$calculate_molarity, {
 
 req(input$mass,
@@ -125,13 +126,15 @@ Molarity = Molarity,
 
 stringsAsFactors = FALSE
 )
-**. Density Calculator**  
+# **. Density Calculator**  
  Calculates the density of a solution based on its mass and volume.  
  **Mathematical Formula:**  
 The formula to calculate the density (ρ) of a solution: 𝜌=𝑚𝑎𝑠𝑠(𝑠𝑜𝑙𝑢𝑡𝑖𝑜𝑛)𝑣𝑜𝑙𝑢𝑚𝑒(𝑠𝑜𝑙𝑢𝑡𝑖𝑜𝑛)  
 **Logic in R Shiny:**
 
-**![][image4]** observeEvent(input$calculate_density, {
+# **LOGICS
+
+observeEvent(input$calculate_density, {
 
 req(input$mass_solution,
 
