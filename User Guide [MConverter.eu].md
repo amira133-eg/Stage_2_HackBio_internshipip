@@ -1,22 +1,22 @@
 **User Guide: Laboratory Calculation Dashboard**
 
-**Introduction**
+# **Introduction**
 
 This Shiny application is intended to assist users with daily laboratory
 calculations related to reagent preparation. It has modules for:
 
-1.  Serial Dilution Calculator
+1.  # Serial Dilution Calculator
 
-2.  Stock Solution Dilution Calculator
+2. # Stock Solution Dilution Calculator
 
-3.  Molarity Calculator
+3. #  Molarity Calculator
 
-4.  Solution Density Calculator
+4. # Solution Density Calculator
 
 Each module is accompanied by inputs that allow users to specify
 parameters, and the results are displayed interactively.
 
-**Overview of the Interface**
+# **Overview of the Interface**
 
 - **Title Panel**: Displays the title \"Laboratory Calculation
   Dashboard\".
@@ -26,9 +26,9 @@ parameters, and the results are displayed interactively.
 
 - **Main Panel**: Displays the results of the calculations.
 
-**Using Each Calculator**
+# **Using Each Calculator**
 
-1.  **Serial Dilution Calculator**
+# 1.  **Serial Dilution Calculator**
 
 > Help you calculate the volume of stock solution to transfer at each
 > step of a serial dilution.
@@ -56,7 +56,7 @@ parameters, and the results are displayed interactively.
 > The result will show the **volume to transfer at each step**-in
 > milliliter (mL).
 
-2.  **Stock Solution Dilution Calculator**
+# 2.  **Stock Solution Dilution Calculator**
 
 > This calculator determines the amount of stock solution and solvent
 > needed to reach a desired final concentration.
@@ -71,17 +71,17 @@ parameters, and the results are displayed interactively.
 
 - **Final Total Volume (Vₓ, mL)**: The total volume you need.
 
-> **Actions**:
+>  **Actions**:
 >
 > Click the **Calculate Stock Dilution** button to calculate the
 > required volumes.
 >
-> **Output**:
+>  **Output**:
 >
 > The result will display the **volume of stock solution to add** and
 > the **volume of solvent** to complete the total volume.
 
-3.  **Molarity Calculator**
+ # 3. **Molarity Calculator**
 
 > This module calculates the molarity of a solution based on the
 > solute\'s mass, molar mass, and the solution volume.
@@ -104,7 +104,7 @@ parameters, and the results are displayed interactively.
 >
 > The result will show the **molarity** of the solution in mol/L.
 
-4.  **Solution Density Calculator**
+# 4.  **Solution Density Calculator**
 
 > This module calculates the density of a solution based on its mass and
 > volume.
@@ -124,7 +124,7 @@ parameters, and the results are displayed interactively.
 > The result will display the **density** in grams per milliliter
 > (g/mL).
 
-**Technical Support**
+# **Technical Support**
 
 For any issues or feedback, you can reach out to the application
 developer via \[ <noran.abdallah@ejust.edu.eg>
@@ -135,7 +135,7 @@ developer via \[ <noran.abdallah@ejust.edu.eg>
 
 <omarhelil00@gmail.com>\].
 
-**Conclusion**
+# **Conclusion**
 
 This dashboard makes it easy to do crucial laboratory calculations. The
 application might help you streamline your lab work by assuring accuracy
