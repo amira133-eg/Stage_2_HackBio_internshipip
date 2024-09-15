@@ -1,4 +1,4 @@
-# Stage_2_HackBio_internshipip
+# Stage_2_HackBio_internship
 link of our Wep Application :  https://labcalchub.shinyapps.io/new_folder/
 
 #Loads the Shiny package which is needed to create interactive web apps in R
