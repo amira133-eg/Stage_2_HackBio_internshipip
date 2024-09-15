@@ -1,4 +1,4 @@
-# **Documentation of the underlying mathematics formulas and logic used to implement LabCalcHub in R Shiny**
+# **Documentation of the underlying mathematics formulas and logics used to implement LabCalcHub in R Shiny**
 
 # **Serial Dilution Calculator**         
  Uses a loop to calculate the volume of stock solution, diluent and updating the concentration at each step.  
