@@ -1,6 +1,15 @@
 # Stage_2_HackBio_internship
 link of our Wep Application :  https://labcalchub.shinyapps.io/new_folder/
 
+# **Authors** 
+Amira Mahmoud Mohamed (amira\\mahmoud\\4463)
+
+Manar Tarek (ManarTj)
+
+Noran Morad (NoranMorad)
+
+Omar holayell sawy ( Holayell)
+
 #Loads the Shiny package which is needed to create interactive web apps in R
 library(shiny)   
 #The UI part of the code defines how your app will look and what elements (like buttons, inputs, and outputs).
