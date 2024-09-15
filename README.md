@@ -1,8 +1,5 @@
 # Stage_2_HackBio_internship
-link of our Wep Application :  https://labcalchub.shinyapps.io/new_folder/
-
-# **Documentation** 
-https://github.com/amira133-eg/Stage_2_HackBio_internshipip/blob/main/documentation.md
+ # LabCalcHub
 
 # **Authors** 
 (@slack):Amira Mahmoud Mohamed (amira\\mahmoud\\4463)
@@ -13,7 +10,17 @@ Noran Morad (NoranMorad)
 
 Omar holayell sawy ( Holayell)
 
+link of our Wep Application :  https://labcalchub.shinyapps.io/new_folder/
 
+# **Documentation** 
+https://github.com/amira133-eg/Stage_2_HackBio_internshipip/blob/main/documentation.md
+
+# **User Guide** 
+https://github.com/amira133-eg/Stage_2_HackBio_internshipip/blob/main/User%20Guide%20%5BMConverter.eu%5D.md
+
+
+
+# **Introduction** 
 
 #Loads the Shiny package which is needed to create interactive web apps in R
 library(shiny)   
